@@ -4,7 +4,8 @@
 
 int main()
 {
-    int numbers[MAX] = {[0 ... 99] = -2}, n, i = 0, med=0, sum=0, elements=0, ma=0, me=0;
+    int numbers[MAX] = {[0 ... 99] = -2}, n, i = 0, sum = 0, elements = 0, ma, me;
+    float med;
 
     while (i < MAX)
     {
@@ -19,6 +20,8 @@ int main()
         numbers[i] = n;
         i++;
     }
+
+    ma = me = numbers[0];
 
     for (int i = 0; i < MAX; i++)
     {
@@ -39,5 +42,7 @@ int main()
         }
     }
 
-    printf("\n\nSoma dos elementos: %i\nMenor elemento: %i\nMaior elemento: %i\nNúmero de elementos: %i\n\n", sum, me, ma, elements);
+    med = sum / elements;
+
+    printf("\n\nSoma dos elementos: %i\nMenor elemento: %i\nMaior elemento: %i\nNúmero de elementos: %i\nMédia: %.2f\n\n", sum, me, ma, elements, med);
 }
