@@ -3,7 +3,7 @@
 ## Organização
 
 - Cada aula está dividida em pastas.
-- O enunciado das questões estão no `Questões.md` de cada pasta de aula.
+- O enunciado das questões estão no `README.md` de cada pasta de aula.
 - Cada exercício tem seu respectivo ao enunciado.
 
 > #### __Aviso__

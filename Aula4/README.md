@@ -8,12 +8,18 @@
 
 - __EX4:__ Faça um algoritmo que realize o cálculo do fatorial de N.
 
-```math
-SE = \frac{\sigma}{\sqrt{n}}
-```
+- __EX5:__ Seja: 
 
-```latex
-SE = \frac{\sigma}{\sqrt{n}}
-```
+    ```math
+     H = \frac{1}{1}+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+...+\frac{1}{N}
+    ```
 
-![equation](http://latex.codecogs.com/gif.latex?O_t%3D%5Ctext%20%7B%20Onset%20event%20at%20time%20bin%20%7D%20t)
+    Onde N é informado pelo usuário, Escreva um algoritmo que calcule e imprima o valor de H.
+
+- __EX6:__ Seja:
+
+    ```math
+    S = \frac{1}{0!}+\frac{1}{1!}+\frac{1}{2!}+\frac{1}{3!}+...+\frac{1}{N!}
+    ```
+
+    Onde N é informado pelo usuário. Escreva um algoritimo para calcular S.
