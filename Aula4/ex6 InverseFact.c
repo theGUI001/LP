@@ -6,18 +6,18 @@ int main()
 {
 
     int n, i = 1;
-    double h;
+    double s;
 
     printf("Escolha um valor de N: ");
     scanf("%d", &n);
 
     while (i <= n)
     {
-        h += (1.0 / factorial(i));
+        s += (1.0 / factorial(i));
         i++;
     }
 
-    printf("O valor de H eh: %lf\n", h);
+    printf("O valor de S eh: %lf\n", s);
 }
 
 /**
