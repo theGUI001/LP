@@ -1,6 +1,11 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "crtdefs.h": "c"
+        "crtdefs.h": "c",
+        "math.h": "c",
+        "bit": "c",
+        "*.tcc": "c",
+        "cmath": "c",
+        "random": "c"
     }
 }
