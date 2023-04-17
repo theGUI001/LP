@@ -23,7 +23,7 @@
 - __Problema 3:__ Escreva um algoritmo para verificar se um dado n ́umero  ́e
 primo ou não.
 
-- __Problema 4:__ Implemente a vers ̃ao discreta da lei de Malthus.
+- __Problema 4:__ Implemente a versão discreta da lei de Malthus.
   
   ```math
   N(t+\Delta t) = N(t)+rN(t)\Delta t
