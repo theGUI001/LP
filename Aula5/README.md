@@ -10,7 +10,7 @@
 
 - __EX5:__ Calcule o valor de um número i elevado a um número j.
 
-- __Problema 1:__ Elaborar um algoritmo para ler trˆes n ́umeros (S1, S2, S3) positivos e verificar se eles formam um triângulo.
+- __Problema 1:__ Elaborar um algoritmo para ler três números (S1, S2, S3) positivos e verificar se eles formam um triângulo.
   - Classificar os triângulos em retângulo, obtusângulo e acutângulo.
 
 - __Problema 2:__ Escrever um algoritmo para calcular o valor do seguinte somatorio:
