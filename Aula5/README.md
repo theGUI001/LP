@@ -20,8 +20,14 @@
   S = 1 - \frac{X^{2}}{3!}+\frac{x{^4}}{5!}-\frac{x^{6}}{7!}+...
   ```
 
-<!-- - __Problema 3:__ Elaborar um algoritmo para ler trˆes n ́umeros (S1, S2, S3) positivos e verificar se eles formam um triângulo.
-  - Classificar os triângulos em retângulo, obtusângulo e acutângulo.
+- __Problema 3:__ Escreva um algoritmo para verificar se um dado n ́umero  ́e
+primo ou não.
 
-- __Problema 4:__ Elaborar um algoritmo para ler trˆes n ́umeros (S1, S2, S3) positivos e verificar se eles formam um triângulo.
-  - Classificar os triângulos em retângulo, obtusângulo e acutângulo. -->
+- __Problema 4:__ Implemente a vers ̃ao discreta da lei de Malthus.
+  
+  ```math
+  N(t+\Delta t) = N(t)+rN(t)\Delta t
+  ```
+
+  - A população inicial N(0), O parâmetro r e o número de iterações deve ser informado pelo usuário
+  - Simule e descreva o comportamento dessa lei
