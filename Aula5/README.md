@@ -9,3 +9,19 @@
 - __EX4:__ Calcule o valor de um número i elevado ao quadrado.
 
 - __EX5:__ Calcule o valor de um número i elevado a um número j.
+
+- __Problema 1:__ Elaborar um algoritmo para ler trˆes n ́umeros (S1, S2, S3) positivos e verificar se eles formam um triângulo.
+  - Classificar os triângulos em retângulo, obtusângulo e acutângulo.
+
+- __Problema 2:__ Escrever um algoritmo para calcular o valor do seguinte somatorio:
+  - Calcule o valor de S utilizando os 20 primeiros termos da serie
+  
+  ```math
+  S = 1 - \frac{X^{2}}{3!}+\frac{x{^4}}{5!}-\frac{x^{6}}{7!}+...
+  ```
+
+<!-- - __Problema 3:__ Elaborar um algoritmo para ler trˆes n ́umeros (S1, S2, S3) positivos e verificar se eles formam um triângulo.
+  - Classificar os triângulos em retângulo, obtusângulo e acutângulo.
+
+- __Problema 4:__ Elaborar um algoritmo para ler trˆes n ́umeros (S1, S2, S3) positivos e verificar se eles formam um triângulo.
+  - Classificar os triângulos em retângulo, obtusângulo e acutângulo. -->
