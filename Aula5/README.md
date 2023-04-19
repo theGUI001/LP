@@ -17,7 +17,7 @@
   - Calcule o valor de S utilizando os 20 primeiros termos da serie
   
   ```math
-  S = 1 - \frac{X^{2}}{3!}+\frac{x{^4}}{5!}-\frac{x^{6}}{7!}+...
+  S = 1 - \frac{X^{2}}{3!}+\frac{X{^4}}{5!}-\frac{X^{6}}{7!}+...
   ```
 
 - __Problema 3:__ Escreva um algoritmo para verificar se um dado n ́umero  ́e
