@@ -13,7 +13,7 @@
     ```math
     S2 = 1 + 2^{2!}+3^{3!}+...+n^{n!}
   
-- __EX4:__ Escreva um algoritmo para verificar se um dado n ́umero  ́e primo ou não.
+- __EX4:__ Escreva um algoritmo para verificar se um dado número é primo ou não.
 
 - __EX5:__ Escreva um algoritmo que imprima todos os números
 primos existentes em um intervalo fornecido pelo usuário.
