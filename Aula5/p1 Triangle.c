@@ -31,20 +31,20 @@ int main()
     }
 
     // Verifies if is a triangle
-    if (a < b + c)
+    if (a + b <= c)
     {
         printf("Não é um triângulo válido.");
         return 1;
     }
 
     // Verifies what "kind" of triangle it's
-    if (pow(a, 2) == pow(b, 2) + pow(c, 2))
+    if (pow(c, 2) == pow(a, 2) + pow(b, 2))
     {
         printf("Triângulo Retângulo");
         return 0;
     }
 
-    if (pow(a, 2) > pow(b, 2) + pow(c, 2))
+    if (pow(c, 2) > pow(a, 2) + pow(b, 2))
     {
         printf("Triângulo Obtusângulo");
         return 0;
