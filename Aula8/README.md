@@ -18,4 +18,5 @@
   - verifique se a chave digitada está entre os 128 números. Em caso positivo, imprima a posição do vetor em que a chave foi encontrada, caso contrário, imprima que a chave não está no vetor.
 
 - __EX3:__ Escreva um algoritmo para ordenar um vetor numérico de 20 elementos em ordem crescente
-  - Exemplo: ![Imagem do exemplo](/Aula8/ex3ex.png)
+  - Exemplo:
+    ![Imagem do exemplo](/Aula8/ex3ex.png)
