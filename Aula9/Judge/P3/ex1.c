@@ -8,6 +8,12 @@ int main()
 
     scanf("%i %i", &a, &b);
 
+    if (b < a)
+    {
+        printf("%f\n", 0.0);
+        return 0;
+    }
+
     while (a <= b)
     {
         if (a % 7 == 0 && a % 2 == 0)
@@ -20,5 +26,6 @@ int main()
 
     med /= (float)counter;
 
-    printf("%f", med);
+    printf("%f\n", med);
+    return 0;
 }
