@@ -30,10 +30,9 @@ int main()
     }
 
     if (countMult7 <= 0)
-    {
         mult7 = 0.0;
-    }
-    mult7 /= countMult7;
+    else
+        mult7 /= countMult7;
 
     printf("%i %f %i\n", intcount, mult7, prod);
 }
