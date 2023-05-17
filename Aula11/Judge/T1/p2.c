@@ -5,7 +5,7 @@ long long int myPow(int x, int p);
 int main()
 {
 
-    int V[5] = {0, 0, 0, 0, 0}, i = 0, p;
+    int V[5] = {0, 0, 0, 0, 0}, i = 0, p = -1;
 
     while (i < 5)
     {
@@ -16,7 +16,10 @@ int main()
         }
     }
 
-    scanf("%i", &p);
+    while (p < 0 || p > 10)
+    {
+        scanf("%i", &p);
+    }
 
     for (i = 0; i < 5; i++)
     {
