@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-long long int myPow(int x, int p);
+long int myPow(int x, int p);
 
 int main()
 {
@@ -23,13 +23,13 @@ int main()
 
     for (i = 0; i < 5; i++)
     {
-        printf("%lld ", myPow(V[i], p));
+        printf("%ld ", myPow(V[i], p));
     }
 }
 
-long long int myPow(int x, int p)
+long int myPow(int x, int p)
 {
-    int resultado = 1;
+    long int resultado = 1;
 
     for (int i = 1; i <= p; i++)
     {
