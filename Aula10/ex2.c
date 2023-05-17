@@ -23,11 +23,13 @@ int main()
         }
     }
 
+    printf("Soma das Matrizes: \n");
+
     for (short i = 0; i < 3; i++)
     {
         for (short j = 0; j < 5; j++)
         {
-            printf("%i ", (m1[i][j] + m2[i][j]));
+            printf("%i\t ", (m1[i][j] + m2[i][j]));
         }
         printf("\n");
     }
