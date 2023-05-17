@@ -10,12 +10,10 @@ int main()
     while (i < 5)
     {
         scanf("%i", &V[i]);
-        if (V[i] > 10 || V[i] < -10)
+        if (V[i] <= 10 && V[i] >= -10)
         {
-            scanf("%i", &V[i]);
-        }
-        else
             i++;
+        }
     }
 
     scanf("%i", &p);
